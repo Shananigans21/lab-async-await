@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" defer src="index.js"></script>
-  </head>
-  <body>
-    <header> Flatbook </header>
-    <ul id = 'post-list'>
-    </ul>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch and Display Posts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #post-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            font-size: 18px;
+            color: #333;
+        }
+        p {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Post List</h1>
+    <ul id="post-list"></ul>
+
+    <script src="index.js"></script>
+</body>
 </html>
